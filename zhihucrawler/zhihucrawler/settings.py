@@ -91,4 +91,4 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 MONGO_URI = 'localhost'
-MONGO_DATABASE = 'zhihu'
+MONGO_DATABASE = 'zhihu_user'

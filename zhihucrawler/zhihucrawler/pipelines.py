@@ -14,7 +14,7 @@ class ZhihucrawlerPipeline(object):
 
 
 class MongoPipeline(object):
-    collection_name = 'users'
+    collection_name = 'usersinfo'
 
     def __init__(self, mongo_uri, mongo_db):
         self.mongo_uri = mongo_uri
